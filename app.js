@@ -29,7 +29,7 @@ var init = function () {
 	var canvas = document.getElementById('glCanvas');
 	var gl = canvas.getContext('webgl');
 
-	gl.clearColor(0.85, 0.75, 1.0, 0.8);
+	gl.clearColor(255,255,255, 255,255,25, 255,255,25, 255,255,25);
 	gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 
 
