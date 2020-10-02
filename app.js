@@ -49,9 +49,9 @@ var init = function () {
 
 	var triangleVertices = 
 	[       
-		0.0, 0.5,    255, 0.0, 0.0,
-		-0.5, -0.5,  255, 0.0, 0.0,
-		0.5, -0.5,   255, 0.0, 0.0,
+		0.0, 0.5,    0.0, 255, 0.0,
+		-0.5, -0.5,  0.0, 255, 0.0,
+		0.5, -0.5,   0.0, 255, 0.0,
 	];
 
 	var triangleVertexBufferObject = gl.createBuffer();
